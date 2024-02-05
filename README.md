@@ -846,3 +846,69 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 <img src="./challenge_5/NFT_challenge_5.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
+
+## チャレンジ 6
+
+- The function is just requiring two string. But it challenges you to use the `cast send` command to interact with the contract.
+- Your favorite ice cream🍦
+- And your Twitter handle.
+
+### コントラクト
+
+<br/>
+<p align="center">
+<img src="./images/contract_6.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+6.
+
+- Arbitrum https://arbiscan.io/address/0xdeB8d8eFeF7049E280Af1d5FE3a380F3BE93B648#code
+- Sepolia https://sepolia.etherscan.io/address/0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1#code
+
+### 解決策
+
+- How to solve it:
+
+1. Search about the `cast` and `send` command of Foundry, in the [forge book](https://book.getfoundry.sh/reference/cli/cast/send?highlight=cast%20send#cast-send)
+
+2. Use the below command.
+3. Or input directly on Etherscan.
+
+- Parameters:
+- `yourFavoriteIceCream` = `anything`
+- `Twitter handle` = `@xxxxxxx`
+
+command:
+
+- BE SURE THAT YOU DIDN'T ADDED "0X" AT THE FRONT OF YOUR PRIVATE KEY IN YOUR ENV FILE.
+- Requires the raw key, as it is when shown in Metamask or other wallet.
+- sometimes format varies depending on cast function... don't ask me why 😛
+
+- Replace `Vanilla` and `Twitter` by your favorite ice cream and your Twitter handle.
+- Replace `$PRIVATE_KEY_TESTNET` by your private key and `$alchemy_RPC_sepolia` by your rpc url.
+
+```
+cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,string)" Vanilla Twitter --private-key $PRIVATE_KEY_TESTNET --rpc-url $alchemy_RPC_sepolia
+```
+
+4. Check your transaction on the blockchain explorer.
+
+<br/>
+<p align="center">
+<img src="./challenge_6/challenge_6_cast_send.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+<br/>
+<p align="center">
+<img src="./challenge_6/challenge_6_cast_send_tx.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT チャレンジ 6
+
+<br/>
+<p align="center">
+<img src="./challenge_5/NFT_challenge_6.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
