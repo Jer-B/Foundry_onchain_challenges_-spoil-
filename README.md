@@ -361,7 +361,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_5/remix_challenge_5.png" width="800" alt="Foundry Challenges">
+<img src="./challenge_5/remix_challenge_5.png" width="700" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -369,7 +369,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_5/challenge_5_functions_1.png" width="400" alt="Foundry Challenges">
+<img src="./challenge_5/challenge_5_functions_1.png" width="300" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -385,7 +385,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_4/NFT_challenge_5.avif" width="200" alt="Foundry Challenges">
+<img src="./challenge_5/NFT_challenge_5.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
 
