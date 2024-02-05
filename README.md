@@ -102,14 +102,34 @@ Here are the writeups of my solutions levels I cleared.
 
 ## Challenge 1
 
+Introductory level.<br /><br />
+
+- You just need to pass a 'Twitter handle' to the 'solveChallenge' function
+
+### Contract
+
 <br/>
 <p align="center">
-<img src="/images/hello.png" width="900" alt="NFT Challenge 1">
+<img src="./images/contract_1.png" width="600" alt="Foundry Challenges">
 </p>
 <br/>
 
-Introductory level.<br /><br />
-Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-).
+### Solution
+
+<br/>
+<p align="center">
+<img src="./challenge_1/challenge_1.png" width="600" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 1
+
+<br/>
+<p align="center">
+<img src="./challenge_1/NFT_challenge1.avif" width="100" alt="Foundry Challenges">
+</p>
+<br/>
+
 <br />
 <br />
 <br />
@@ -126,7 +146,7 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
 </p>
 <br/>
 
-- テストネット上に既にデプロイされており、Patrick Collins / Cyfrin によって作成された様々なコントラクトのチャレンジソリューションです。
+- テストネット上に既にデプロイされており、`Patrick Collins` / `Cyfrin` によって作成された様々なコントラクトのチャレンジソリューションです。
 - これは、他のコントラクトとどのようにやり取りし、読み取るかを実践する方法です。シンプルなチャレンジから、外部コントラクトとのやり取りやそれらを利用する必要があるチャレンジまであります。
 - 各チャレンジの問題の説明はスマートコントラクトに含まれています。
 - チャレンジを解決すると、報酬として NFT がもらえます。
