@@ -306,6 +306,89 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
+## Challenge 5
+
+- The goal is to find a string that after being hashed with the Keccak256 algorithm it returns the bellow bytes:
+
+```
+0xb68fe43f0d1a0d7aef123722670be50268e15365401c442f8806ef83b612976b
+```
+
+- There is a hint in the contract to help you find the string. It says "It's a very common....`(password)`"
+- Fill in your Twitter handle.
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_5.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+5.
+
+- Arbitrum https://arbiscan.io/address/0xf988Ebf9D801F4D3595592490D7fF029E438deCa#code
+- Sepolia https://sepolia.etherscan.io/address/0x4b3a7F293091708dDD6B8748179aeAF80E9c1bA2#code
+
+### Solution
+
+- How to solve it:
+
+1. Just need to do a function that hashes word with `Keccak256` and compare the result with the bytes given in the contract.
+2. Honestly it is so obvious but I still give the solution, and include a working solidity code in bonus 😛
+
+- Parameters:
+- `password` = `Keccak256Bytes`
+- `Twitter handle` = `@xxxxxxx`
+
+<br/>
+<p align="center">
+<img src="./challenge_5/challenge_5.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+#### How to solve it using Solidity
+
+- Even if it is an obvious password that needs to be input, I still give the solution and a working code in solidity.
+
+1. Deploy the contract from this folder [./challenge_5/passwordGuesser.sol](https://github.com/Jer-B/Foundry_onchain_challenges_-spoil-/blob/main/challenge_5/passwordGuesser.sol) on [Remix](https://remix.ethereum.org/) using `VM Shanghai` as `Environment`. See the screenshot below.
+
+- It contains a for loop function called `guessPasswordByLoop`, that loops through an array of words. Like if it was a dictionary attack. It is not very convenient on mainnet or testnet due to gas cost.
+- And it also have a `guessPasswordByWord` function, that uses a word that user input in the function.
+- Both function are going to compare the hashed bytes with the bytes given in the contract. If the right word is found it will return the word, else it will revert.
+
+2. Once it is deployed, just have fun with functions.
+
+<br/>
+<p align="center">
+<img src="./challenge_5/remix_challenge_5.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+- Functions will output the answer.
+
+<br/>
+<p align="center">
+<img src="./challenge_5/challenge_5_functions_1.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+- If the matching word is not found, transaction will revert
+
+<br/>
+<p align="center">
+<img src="./challenge_5/challenge_5_function_1_revert.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 5
+
+<br/>
+<p align="center">
+<img src="./challenge_4/NFT_challenge_5.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
 <br />
 <br />
 <br />
