@@ -144,6 +144,8 @@ Introductory level.<br /><br />
 
 ### Solution
 
+- `Twitter handle` = `@xxxxxxx`
+
 <br/>
 <p align="center">
 <img src="./challenge_1/challenge_1.png" width="900" alt="Foundry Challenges">
@@ -179,6 +181,9 @@ Introductory level.<br /><br />
 
 ### Solution
 
+- `number` = `123`
+- `Twitter handle` = `@xxxxxxx`
+
 <br/>
 <p align="center">
 <img src="./challenge_2/challenge_2.png" width="900" alt="Foundry Challenges">
@@ -190,6 +195,45 @@ Introductory level.<br /><br />
 <br/>
 <p align="center">
 <img src="./challenge_2/NFT_challenge_2.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
+## Challenge 3
+
+- Booleans. You need to pass the right boolean to the function, as a number. the `solveChallenge` function will revert if the boolean of `location` is not `true`.
+- `0` = `false` and `1` = `true`
+- Fill in your Twitter handle.
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_3.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+3.
+
+- Arbitrum https://arbiscan.io/address/0x34d130B174F4a30A846FED7C02FCF53A19a4c2B6#code
+- Sepolia https://sepolia.etherscan.io/address/0x4A62A8901e6113dEF0AEeEC77E531779cd40da73#code
+
+### Solution
+
+- `location` = `1`
+- `newLocation` = `0` or `1`
+- `Twitter handle` = `@xxxxxxx`
+
+<br/>
+<p align="center">
+<img src="./challenge_3/challenge_3.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 3
+
+<br/>
+<p align="center">
+<img src="./challenge_3/NFT_challenge_3.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -343,6 +387,8 @@ Introductory level.<br /><br />
 
 ### 解決策
 
+- `Twitter handle` = `@xxxxxxx`
+
 <br/>
 <p align="center">
 <img src="./challenge_1/challenge_1.png" width="900" alt="Foundry Challenges">
@@ -378,6 +424,9 @@ Introductory level.<br /><br />
 
 ### 解決策
 
+- `number` = `123`
+- `Twitter handle` = `@xxxxxxx`
+
 <br/>
 <p align="center">
 <img src="./challenge_2/challenge_2.png" width="900" alt="Foundry Challenges">
@@ -395,3 +444,42 @@ Introductory level.<br /><br />
 <br />
 <br />
 <br />
+
+## チャレンジ 3
+
+- ブール値。関数に正しいブール値を数値として渡す必要があります。`location`のブール値が true でない場合、`solveChallenge`関数はリバートされます。
+- `0` = `false`、`1` = `true`
+- Twitter ハンドルを入力する。
+
+### コントラクト
+
+<br/>
+<p align="center">
+<img src="./images/contract_3.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+3.
+
+- Arbitrum https://arbiscan.io/address/0x34d130B174F4a30A846FED7C02FCF53A19a4c2B6#code
+- Sepolia https://sepolia.etherscan.io/address/0x4A62A8901e6113dEF0AEeEC77E531779cd40da73#code
+
+### 解決策
+
+- `location` = `1`
+- `newLocation` = `0` or `1`
+- `Twitter handle` = `@xxxxxxx`
+
+<br/>
+<p align="center">
+<img src="./challenge_3/challenge_3.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT チャレンジ 3
+
+<br/>
+<p align="center">
+<img src="./challenge_3/NFT_challenge_3.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
