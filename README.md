@@ -278,10 +278,9 @@ Introductory level.<br /><br />
 
 #### Using the `manual` method
 
-- For this one, we will use a separate contract and the cast method of Foundry to call the `solveChallenge` function with the right price.
 - Because I share the solution, now hope you will be fast enough to input the price in time. 😛 So I don't give the `cast` command or an extra way in the contract to do all in one row.
 
-1. Deploy the contract from this folder [./challenge_4/priceFeedChecker.sol]() on [Remix](https://remix.ethereum.org/) using `Injected Provider - Metamask` as `Environment`. See the screenshot below.
+1. Deploy the contract from this folder [./challenge_4/priceFeedChecker.sol](https://github.com/Jer-B/Foundry_onchain_challenges_-spoil-/blob/main/challenge_4/priceFeedChecker.sol) on [Remix](https://remix.ethereum.org/) using `Injected Provider - Metamask` as `Environment`. See the screenshot below.
 
 2. Once it is deployed, use the getter function `getPriceEth` to get the actual price of Eth.
 
@@ -582,10 +581,25 @@ Introductory level.<br /><br />
    OR
    <br />
 2. 価格をチェックし、Foundry の`cast`メソッドを使用して、別途正しい価格で`solveChallenge`関数を呼び出すことができます。
+3. Etherscan 上で直接操作することもできます。
 
 - パラメーター:
 - `priceGuess` = `Ethの実際の価格`
 - `Twitter handle` = `@xxxxxxx`
+
+### `マニュアル`方法を使用する (3 番)
+
+- 解決策を共有するので、価格をタイムリーに入力できることを願っています。😛 ですので、一行で全てを行うための`cast`コマンドや契約内の追加方法は提供しません。
+
+1. このフォルダー[./challenge_4/priceFeedChecker.sol](https://github.com/Jer-B/Foundry_onchain_challenges_-spoil-/blob/main/challenge_4/priceFeedChecker.sol)からコントラクトを[Remix](https://remix.ethereum.org/)で`Injected Provider - Metamask`を`Environment`として使用してデプロイします。以下のスクリーンショットを参照してください。
+2. デプロイされたら、ゲッター関数`getPriceEth`を使用して Eth の実際の価格を取得します。
+3. 結果をコピーして、以下のコマンドの`solveChallenge`関数の`priceGuess`パラメータに貼り付けます。
+
+<br/>
+<p align="center">
+<img src="./challenge_4/remix_challenge_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
 
 <br/>
 <p align="center">
@@ -593,7 +607,7 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
-### NFT challenge 4
+### NFT チャレンジ 4
 
 <br/>
 <p align="center">
