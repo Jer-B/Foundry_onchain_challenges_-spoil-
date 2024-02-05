@@ -6,7 +6,7 @@
 
 <br/>
 <p align="center">
-<img src="https://jer-b.github.io/assets/projects_img/badges_1.avif" width="900" alt="Foundry Challenges">
+<img src="https://jer-b.github.io/assets/projects_img/badges_1.avif" width="600" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -122,7 +122,7 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
 
 <br/>
 <p align="center">
-<img src="https://jer-b.github.io/assets/projects_img/badges_1.avif" width="900" alt="Foundry Challenges">
+<img src="https://jer-b.github.io/assets/projects_img/badges_1.avif" width="600" alt="Foundry Challenges">
 </p>
 <br/>
 
