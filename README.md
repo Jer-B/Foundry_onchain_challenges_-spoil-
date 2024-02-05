@@ -28,6 +28,11 @@ Here are the writeups of my solutions levels I cleared.
 
 # The list of all challenges
 
+0.
+
+- I don't have the arbitrum address for this one
+- Sepolia https://sepolia.etherscan.io/address/0x55e959cc29f38224faebac65b8d8adfea021e65b#code
+
 1.
 
 - Arbitrum https://arbiscan.io/address/0x2e99A4CA9c85383ccB54769adB3837437e296479#code
@@ -100,7 +105,7 @@ Here are the writeups of my solutions levels I cleared.
 - Arbitrum https://arbiscan.io/address/0xa0c7ADA2c7c29729d12e2649BC6a0a293Ac46725#code
 - Sepolia https://sepolia.etherscan.io/address/0x766a74f8924C7B07df088fDB0F7D7DbaDd330Fb3#code
 
-## Challenge 1
+## Challenge 0 and 1
 
 Introductory level.<br /><br />
 
@@ -126,7 +131,8 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_1/NFT_challenge1.avif" width="300" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge0.avif" width="200" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge1.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -163,6 +169,11 @@ Introductory level.<br /><br />
 - より高難度のチャレンジでは、スマートコントラクトとインターフェースを作成して、いくつかのスマートコントラクトを外部からハッキングするために解チャレンジをクリアする必要があります。
 
 # 全てのチャレンジ一覧
+
+0.
+
+- Arbitrum のアドレスは知りません。
+- Sepolia https://sepolia.etherscan.io/address/0x55e959cc29f38224faebac65b8d8adfea021e65b#code
 
 1.
 
