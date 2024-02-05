@@ -577,6 +577,8 @@ cast send 0xD7D127991c6A89Df752FC3daeC17540aE8B86101 "solveChallenge(uint256,str
 <br />
 <br /> -->
 
+# TO CONTINUE...
+
 <a name="japanese"></a>
 
 # 日本語版の README
@@ -1153,3 +1155,5 @@ cast send 0xD7D127991c6A89Df752FC3daeC17540aE8B86101 "solveChallenge(uint256,str
 <br />
 <br />
 <br /> -->
+
+# TO CONTINUE...
