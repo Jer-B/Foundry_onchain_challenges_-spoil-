@@ -110,7 +110,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./images/contract_1.png" width="600" alt="Foundry Challenges">
+<img src="./images/contract_1.png" width="900" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -118,7 +118,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_1/challenge_1.png" width="600" alt="Foundry Challenges">
+<img src="./challenge_1/challenge_1.png" width="900" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -126,7 +126,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_1/NFT_challenge1.avif" width="100" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge1.avif" width="300" alt="Foundry Challenges">
 </p>
 <br/>
 
