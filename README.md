@@ -369,7 +369,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_5/challenge_5_functions_1.png" width="900" alt="Foundry Challenges">
+<img src="./challenge_5/challenge_5_functions_1.png" width="500" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -377,7 +377,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_5/challenge_5_function_1_revert.png" width="900" alt="Foundry Challenges">
+<img src="./challenge_5/challenge_5_function_1_revert.png" width="500" alt="Foundry Challenges">
 </p>
 <br/>
 
