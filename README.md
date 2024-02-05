@@ -553,14 +553,14 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
-## Challenge 4
+## チャレンジ 4
 
 - Chainlink の `priceFeed`を使用して、 `Eth`の`実際`の価格を取得し、その価格を`solveChallenge`関数の`priceGuess` パラメータとして渡す必要があります。
   priceFeed 値は比較され、実際の価格と等しいかどうかがチェックされます。
 - 価格は `18桁の小数`を持つ必要があります。例:`23014670313300000000000`
 - Twitter ハンドルを入力する。
 
-### Contract
+### コントラクト
 
 <br/>
 <p align="center">
@@ -573,7 +573,7 @@ Introductory level.<br /><br />
 - Arbitrum https://arbiscan.io/address/0xA2626bE06C11211A44fb6cA324A67EBDBCd30B70#code
 - Sepolia https://sepolia.etherscan.io/address/0x1b30DA2a868704483143A4D46865Ac9585629fd0#code
 
-### Solution
+### 解決策
 
 - 解決方法:
 
