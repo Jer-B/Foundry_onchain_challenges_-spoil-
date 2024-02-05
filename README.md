@@ -237,6 +237,76 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
+## Challenge 4
+
+- Using Chainlink `priceFeed`, you need to get the `actual` price of `Eth` and pass it as the `priceGuess` parameter of the `solveChallenge` function. Your priceFeed value will then be compared and checked to see if it is equal to the actual price.
+- The value needs to have `18 decimals`. Example: `23014670313300000000000`
+- Fill in your Twitter handle.
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+4.
+
+- Arbitrum https://arbiscan.io/address/0xA2626bE06C11211A44fb6cA324A67EBDBCd30B70#code
+- Sepolia https://sepolia.etherscan.io/address/0x1b30DA2a868704483143A4D46865Ac9585629fd0#code
+
+### Solution
+
+- How to solve it:
+
+1. We can have a simple contract checking the price and then calling the `solveChallenge` function with the right price, in one transaction. And then having a function for sending the NFT from the contract we used to our wallet.<br />
+   OR
+   <br />
+2. We can check the price and separately call the `solveChallenge` function with the right price, using the `cast` method of Foundry.
+3. Same as the point 2, but by interacting directly on Etherscan.
+
+- Parameters:
+- `priceGuess` = `ActualEthPrice`
+- `Twitter handle` = `@xxxxxxx`
+
+<br/>
+<p align="center">
+<img src="./challenge_4/challenge_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+#### Using the `manual` method
+
+- For this one, we will use a separate contract and the cast method of Foundry to call the `solveChallenge` function with the right price.
+- Because I share the solution, now hope you will be fast enough to input the price in time. 😛 So I don't give the `cast` command or an extra way in the contract to do all in one row.
+
+1. Deploy the contract from this folder [./challenge_4/priceFeedChecker.sol]() on [Remix](https://remix.ethereum.org/) using `Injected Provider - Metamask` as `Environment`. See the screenshot below.
+
+2. Once it is deployed, use the getter function `getPriceEth` to get the actual price of Eth.
+
+3. Copy the result and paste it in the `priceGuess` parameter of the `solveChallenge` function in the command below.
+
+<br/>
+<p align="center">
+<img src="./challenge_4/remix_challenge_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+<br/>
+<p align="center">
+<img src="./challenge_4/challenge_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 4
+
+<br/>
+<p align="center">
+<img src="./challenge_4/NFT_challenge_4.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
 <br />
 <br />
 <br />
@@ -481,5 +551,52 @@ Introductory level.<br /><br />
 <br/>
 <p align="center">
 <img src="./challenge_3/NFT_challenge_3.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
+## Challenge 4
+
+- Chainlink の `priceFeed`を使用して、 `Eth`の`実際`の価格を取得し、その価格を`solveChallenge`関数の`priceGuess` パラメータとして渡す必要があります。
+  priceFeed 値は比較され、実際の価格と等しいかどうかがチェックされます。
+- 価格は `18桁の小数`を持つ必要があります。例:`23014670313300000000000`
+- Twitter ハンドルを入力する。
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+4.
+
+- Arbitrum https://arbiscan.io/address/0xA2626bE06C11211A44fb6cA324A67EBDBCd30B70#code
+- Sepolia https://sepolia.etherscan.io/address/0x1b30DA2a868704483143A4D46865Ac9585629fd0#code
+
+### Solution
+
+- 解決方法:
+
+1. 価格をチェックし、正しい価格で`solveChallenge`関数を呼び出すシンプルなコントラクトを用意し、一つのトランザクションでこれを行うことができます。そして、使用したコントラクトからウォレットに NFT を送信する方法を使う。<br />
+   OR
+   <br />
+2. 価格をチェックし、Foundry の`cast`メソッドを使用して、別途正しい価格で`solveChallenge`関数を呼び出すことができます。
+
+- パラメーター:
+- `priceGuess` = `Ethの実際の価格`
+- `Twitter handle` = `@xxxxxxx`
+
+<br/>
+<p align="center">
+<img src="./challenge_4/challenge_4.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 4
+
+<br/>
+<p align="center">
+<img src="./challenge_4/NFT_challenge_4.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
