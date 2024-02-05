@@ -26,6 +26,19 @@ Here are the writeups of my solutions levels I cleared.
 - If you are not confortable yet with ABI, then it is a great way to learn about it and how to call any contract by external calls.
 - In higher difficulty challenges, you will need to wrote smart contracts and interfaces to hack some smart contract externally for clearing chellenges.
 
+# Verify your result
+
+- There is 2 way to verify if your solution was correct or not.
+
+1. Verify the transaction you made on the blockchain explorer.
+2. Easiest way is just to take a look at Opensea and see if you have the NFT: [Here](https://testnets.opensea.io/account)
+
+<br/>
+<p align="center">
+<img src="./images/opensea_verify.png" width="600" alt="Foundry Challenges">
+</p>
+<br/>
+
 # The list of all challenges
 
 0.
@@ -141,8 +154,8 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_1/NFT_challenge0.avif" width="200" alt="Foundry Challenges">
-<img src="./challenge_1/NFT_challenge1.avif" width="250" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge0.avif" width="150" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge1.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -177,6 +190,19 @@ Introductory level.<br /><br />
 - Foundry と`cast`や`send`を使ったメソッド呼び出し、外部コントラクトが必要なコントラクトのやり取りに慣れている場合は、Foundry だけで問題を解決することもできます。
 - まだ ABI に慣れていない場合、それを使用して任意のコントラクトを外部呼び出しで呼び出す方法について学び、理解するのに最適な方法です。
 - より高難度のチャレンジでは、スマートコントラクトとインターフェースを作成して、いくつかのスマートコントラクトを外部からハッキングするために解チャレンジをクリアする必要があります。
+
+# 結果を確認する
+
+- 解決策が正しかったかどうかを確認する方法は 2 つあります。
+
+1. ブロックチェーンエクスプローラーで行ったトランザクションを確認します。
+2. もっとも簡単な方法は、Opensea で NFT を持っているかどうかを確認することです： [こちら](https://testnets.opensea.io/account)
+
+<br/>
+<p align="center">
+<img src="./images/opensea_verify.png" width="600" alt="Foundry Challenges">
+</p>
+<br/>
 
 # 全てのチャレンジ一覧
 
@@ -257,17 +283,43 @@ Introductory level.<br /><br />
 - Arbitrum https://arbiscan.io/address/0xa0c7ADA2c7c29729d12e2649BC6a0a293Ac46725#code
 - Sepolia https://sepolia.etherscan.io/address/0x766a74f8924C7B07df088fDB0F7D7DbaDd330Fb3#code
 
-## チャレンジ 1.
+## チャレンジ 0 と 1.
+
+入門レベル。<br /><br />
+
+- 'Twitter handle' を 'solveChallenge' 関数に渡すだけです。
+
+### コントラクト
 
 <br/>
 <p align="center">
-<img src="/images/hello.png" width="900" alt="NFT Challenge 1">
+<img src="./images/contract_1.png" width="900" alt="Foundry Challenges">
 </p>
 <br/>
 
-これは導入的なレベルである。<br /><br />
+0.
 
-レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)。
-<br />
-<br />
-<br />
+- Arbitrum のアドレスは知りません。
+- Sepolia https://sepolia.etherscan.io/address/0x55e959cc29f38224faebac65b8d8adfea021e65b#code
+
+1.
+
+- Arbitrum https://arbiscan.io/address/0x2e99A4CA9c85383ccB54769adB3837437e296479#code
+- Sepolia https://sepolia.etherscan.io/address/0x25056312685339b49e1d1C5a0b72Ff9eff13AF77#code
+
+### 解決策
+
+<br/>
+<p align="center">
+<img src="./challenge_1/challenge_1.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT チャレンジ 0 と 1
+
+<br/>
+<p align="center">
+<img src="./challenge_1/NFT_challenge0.avif" width="150" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge1.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
