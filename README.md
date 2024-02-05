@@ -119,6 +119,16 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
+0.
+
+- I don't have the arbitrum address for this one
+- Sepolia https://sepolia.etherscan.io/address/0x55e959cc29f38224faebac65b8d8adfea021e65b#code
+
+1.
+
+- Arbitrum https://arbiscan.io/address/0x2e99A4CA9c85383ccB54769adB3837437e296479#code
+- Sepolia https://sepolia.etherscan.io/address/0x25056312685339b49e1d1C5a0b72Ff9eff13AF77#code
+
 ### Solution
 
 <br/>
@@ -127,12 +137,12 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
-### NFT challenge 1
+### NFT challenge 0 and 1
 
 <br/>
 <p align="center">
 <img src="./challenge_1/NFT_challenge0.avif" width="200" alt="Foundry Challenges">
-<img src="./challenge_1/NFT_challenge1.avif" width="200" alt="Foundry Challenges">
+<img src="./challenge_1/NFT_challenge1.avif" width="250" alt="Foundry Challenges">
 </p>
 <br/>
 
