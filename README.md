@@ -189,7 +189,7 @@ Introductory level.<br /><br />
 
 <br/>
 <p align="center">
-<img src="./challenge_2/NFT_challenge_2.avif" width="150" alt="Foundry Challenges">
+<img src="./challenge_2/NFT_challenge_2.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -357,3 +357,41 @@ Introductory level.<br /><br />
 <img src="./challenge_1/NFT_challenge1.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
+
+## チャレンジ 2
+
+- トランザクション内で送信する数値は、コントラクトの someNumber 変数に設定された数値と等しくなければなりません。
+- Twitter ハンドルを入力する。
+
+### コントラクト
+
+<br/>
+<p align="center">
+<img src="./images/contract_2.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+2.
+
+- Arbitrum https://arbiscan.io/address/0x76D2403b80591d5F6AF2b468BC14205fa5452AC0#code
+- Sepolia https://sepolia.etherscan.io/address/0x5c1ddb86F11BB46D3067C702AC554aEaED9ff8f0#code
+
+### 解決策
+
+<br/>
+<p align="center">
+<img src="./challenge_2/challenge_2.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT チャレンジ 2
+
+<br/>
+<p align="center">
+<img src="./challenge_2/NFT_challenge_2.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
+<br />
+<br />
+<br />
