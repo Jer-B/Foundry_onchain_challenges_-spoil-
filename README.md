@@ -773,7 +773,7 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
-### NFT challenge 5
+### NFT チャレンジ 5
 
 <br/>
 <p align="center">
