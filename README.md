@@ -159,6 +159,40 @@ Introductory level.<br /><br />
 </p>
 <br/>
 
+## Challenge 2
+
+- The number to send within the transaction, must be equal to the number set on the `someNumber` variable of the contract.
+- Fill in your Twitter handle.
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_2.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+2.
+
+- Arbitrum https://arbiscan.io/address/0x76D2403b80591d5F6AF2b468BC14205fa5452AC0#code
+- Sepolia https://sepolia.etherscan.io/address/0x5c1ddb86F11BB46D3067C702AC554aEaED9ff8f0#code
+
+### Solution
+
+<br/>
+<p align="center">
+<img src="./challenge_2/challenge_2.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 2
+
+<br/>
+<p align="center">
+<img src="./challenge_2/NFT_challenge_2.avif" width="150" alt="Foundry Challenges">
+</p>
+<br/>
+
 <br />
 <br />
 <br />
