@@ -455,9 +455,127 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 </p>
 <br/>
 
+## Challenge 7
+
+- The goal is to get the value at a certain storage slot.
+- The value at storage `777`
+- And your Twitter handle.
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_7.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+7.
+
+- Arbitrum https://arbiscan.io/address/0xcf4fbA490197452Bd414E16D563623253eFb57D3#code
+- Sepolia https://sepolia.etherscan.io/address/0xD7D127991c6A89Df752FC3daeC17540aE8B86101#code
+
+### Solution
+
+- How to solve it:
+
+1. Search about the `cast` and `storage` command of Foundry, in the [forge book](https://book.getfoundry.sh/reference/cast/cast-storage?highlight=cast%20storage#cast-storage)
+
+2. Use the below command.
+3. Or input directly on Etherscan.
+
+- Parameters:
+- `valueAtStorageLocationSevenSevenSeven` = `TheValueOfTheStorage`
+- `Twitter handle` = `@xxxxxxx`
+
+command:
+
+- IT IS OKAY TO HAVE "0X" AT THE FRONT OF YOUR PRIVATE KEY IN YOUR ENV FILE FOR THIS ONE.
+
+- Replace `$PRIVATE_KEY_TESTNET` by your private key and `$alchemy_RPC_sepolia` by your rpc url.
+- Replace `TheValueOfTheStorage` and `Twitter` by your decoded hexa code and your Twitter handle.
+
+- Get the storage hexa value at the location 777:
+
+```
+cast storage --rpc-url $alchemy_RPC_sepolia 0xD7D127991c6A89Df752FC3daeC17540aE8B86101 777
+```
+
+It returned: `0x00000000000000000000000000000000000000000000000000000000000cf80a`
+
+- Decode the value you got, the hexa code in the below code will change after each transaction so change it by yours:
+
+```
+cast --to-base 0x00000000000000000000000000000000000000000000000000000000000cf80a dec
+```
+
+It returned: `849930`
+
+- Send a transaction with the above value and your Twitter handle:
+
+```
+cast send 0xD7D127991c6A89Df752FC3daeC17540aE8B86101 "solveChallenge(uint256,string)" 849930 @Twitter --private-key $PRIVATE_KEY_TESTNET --rpc-url $alchemy_RPC_sepolia
+```
+
+4. Check your transaction on the blockchain explorer.
+
+<br/>
+<p align="center">
+<img src="./challenge_7/challenge_7_cast.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+<br/>
+<p align="center">
+<img src="./challenge_7/challenge_7_cast_tx.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 7
+
+<br/>
+<p align="center">
+<img src="./challenge_7/NFT_challenge_7.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
+<!-- ## Challenge 8
+
+- When you will see it, you should understand what to do.
+- Your Twitter handle.
+
+### Contract
+
+<br/>
+<p align="center">
+<img src="./images/contract_7.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+8. [ipfs://QmUgc1xpNgTMwSF2GBS5FTFKmSdrmSnLJD5DoYZtcQ2n5X](ipfs://QmUgc1xpNgTMwSF2GBS5FTFKmSdrmSnLJD5DoYZtcQ2n5X)
+
+
+1. Open the IPFS link and you will find the solution. 😛
+
+2. Connect your wallet.
+3. Input your Twitter handle.
+4. Solve...
+
+<br/>
+<p align="center">
+<img src="./challenge_8/challenge_8_ipfs.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 8
+
+<br/>
+<p align="center">
+<img src="./challenge_8/NFT_challenge_8.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
 <br />
 <br />
-<br />
+<br /> -->
 
 <a name="japanese"></a>
 
@@ -912,3 +1030,126 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 <img src="./challenge_6/NFT_challenge_6.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
+
+## チャレンジ 7
+
+- 目的は、特定のストレージスロットの値を取得することです。
+- ストレージ `777` の値
+- そして、あなたの Twitter ハンドル。
+
+### コントラクト
+
+<br/>
+<p align="center">
+<img src="./images/contract_7.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+7.
+
+- Arbitrum https://arbiscan.io/address/0xcf4fbA490197452Bd414E16D563623253eFb57D3#code
+- Sepolia https://sepolia.etherscan.io/address/0xD7D127991c6A89Df752FC3daeC17540aE8B86101#code
+
+### 解決策
+
+- 解決方法:
+
+1. Foundry の`cast`の`storage`コマンドについて、[forge book](https://book.getfoundry.sh/reference/cast/cast-storage?highlight=cast%20storage#cast-storage)で調べる
+
+2. 下記のコマンドを使用する。
+3. または、Etherscan で直接入力する。
+
+- パラメータ:
+- `valueAtStorageLocationSevenSevenSeven` = `ストレージの値`
+- `Twitter handle` = `@xxxxxxx`
+
+コマンド:
+
+- 今回は、環境変数ファイルのプライベートキーの前に "0X" があっても大丈夫です。
+
+- `$PRIVATE_KEY_TESTNET` をあなたのプライベートキーに、`$alchemy_RPC_sepolia` をあなたの rpc url に置き換えてください。
+- `ストレージの値` と `Twitter` を 16 進値と Twitter ハンドルに置き換えてください。
+
+- 位置 777 のストレージの 16 進値を取得:
+
+```
+cast storage --rpc-url $alchemy_RPC_sepolia 0xD7D127991c6A89Df752FC3daeC17540aE8B86101 777
+```
+
+返された値: `0x00000000000000000000000000000000000000000000000000000000000cf80a`
+
+- 得られた値をデコードする、下記のコードの 16 進コードはトランザクションごとに変更されるので、それをあなたのものに変更してください:
+
+```
+cast --to-base 0x00000000000000000000000000000000000000000000000000000000000cf80a dec
+```
+
+返された値: `849930`
+
+- 上記の値とあなたの Twitter ハンドルでトランザクションを送信:
+
+```
+cast send 0xD7D127991c6A89Df752FC3daeC17540aE8B86101 "solveChallenge(uint256,string)" 849930 @Twitter --private-key $PRIVATE_KEY_TESTNET --rpc-url $alchemy_RPC_sepolia
+```
+
+4. ブロックチェーンエクスプローラであなたのトランザクションをチェックしてください。
+
+<br/>
+<p align="center">
+<img src="./challenge_7/challenge_7_cast.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+<br/>
+<p align="center">
+<img src="./challenge_7/challenge_7_cast_tx.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT チャレンジ 7
+
+<br/>
+<p align="center">
+<img src="./challenge_7/NFT_challenge_7.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
+<!-- ## チャレンジ 8
+
+- ページを見たら、何をすべきか理解できるはずです。
+- 必要のはTwitterのハンドル。
+
+### コントラクト
+
+<br/>
+<p align="center">
+<img src="./images/contract_7.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+8. [ipfs://QmUgc1xpNgTMwSF2GBS5FTFKmSdrmSnLJD5DoYZtcQ2n5X](ipfs://QmUgc1xpNgTMwSF2GBS5FTFKmSdrmSnLJD5DoYZtcQ2n5X)
+
+### 解決策
+
+1. IPFSリンクを開くと、解決策が見つかります。😛
+
+2. ウォレットを接続して。
+3. Twitterハンドルを入力して。
+4. 解決してください...
+
+<br/>
+<p align="center">
+<img src="./challenge_8/challenge_8_ipfs.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT チャレンジ 8
+
+<br/>
+<p align="center">
+<img src="./challenge_8/NFT_challenge_8.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
+
+<br />
+<br />
+<br /> -->
