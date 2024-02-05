@@ -697,3 +697,86 @@ Introductory level.<br /><br />
 <img src="./challenge_4/NFT_challenge_4.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
+
+## チャレンジ 5
+
+- 目標は、Keccak256 アルゴリズムでハッシュされた後に以下のバイトを返す文字列を見つけることです:
+
+```
+0xb68fe43f0d1a0d7aef123722670be50268e15365401c442f8806ef83b612976b
+```
+
+- 契約には文字列を見つけるためのヒントがあります。それは「非常に一般的な....`(password)`」と言っています。
+- Twitter ハンドルを入力する。
+
+### コントラクト
+
+<br/>
+<p align="center">
+<img src="./images/contract_5.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+5.
+
+- Arbitrum https://arbiscan.io/address/0xf988Ebf9D801F4D3595592490D7fF029E438deCa#code
+- Sepolia https://sepolia.etherscan.io/address/0x4b3a7F293091708dDD6B8748179aeAF80E9c1bA2#code
+
+### 解決策
+
+- 解決方法:
+
+1. `Keccak256`で単語をハッシュ化し、その結果を契約で与えられたバイトと比較する関数を作成するだけです。
+2. 正直に簡単ですが、解決策を与え、ボーナスとして動作する solidity コードを含みます 😛
+
+- パラメータ:
+- `password` = `Keccak256Bytes`
+- `Twitter handle` = `@xxxxxxx`
+
+<br/>
+<p align="center">
+<img src="./challenge_5/challenge_5.png" width="900" alt="Foundry Challenges">
+</p>
+<br/>
+
+#### Solidity を使用して解決する方法
+
+- 入力する必要があるパスワードが明らかであっても、まだ解決策を与え、solidity で動作するコードを与えます。
+
+1. このフォルダ[./challenge_5/passwordGuesser.sol](https://github.com/Jer-B/Foundry_onchain_challenges_-spoil-/blob/main/challenge_5/passwordGuesser.sol)から契約を[Remix](https://remix.ethereum.org/)にデプロイしてください。`VM Shanghai`を`Environment`として使用します。以下のスクリーンショットを参照してください。
+
+- 単語の配列をループする`guessPasswordByLoop`という for ループ関数を含んでいます。まるでそれが辞書攻撃であったかのように。メインネットやテストネットではガスコストのためにあまり便利ではありません。
+- また、関数にユーザーが入力した単語を使用する`guessPasswordByWord`関数もあります。
+- 両方の関数は、ハッシュされたバイトを契約で与えられたバイトと比較します。正しい単語が見つかればその単語を返し、そうでなければリバートします。
+
+2.  デプロイされたら、関数で遊んでみてください。
+
+<br/>
+<p align="center">
+<img src="./challenge_5/remix_challenge_5.png" width="700" alt="Foundry Challenges">
+</p>
+<br/>
+
+- 関数は答えを出力します。
+
+<br/>
+<p align="center">
+<img src="./challenge_5/challenge_5_functions_1.png" width="300" alt="Foundry Challenges">
+</p>
+<br/>
+
+- 一致する単語が見つからない場合、トランザクションはリバートされます
+
+<br/>
+<p align="center">
+<img src="./challenge_5/challenge_5_function_1_revert.png" width="600" alt="Foundry Challenges">
+</p>
+<br/>
+
+### NFT challenge 5
+
+<br/>
+<p align="center">
+<img src="./challenge_5/NFT_challenge_5.avif" width="200" alt="Foundry Challenges">
+</p>
+<br/>
