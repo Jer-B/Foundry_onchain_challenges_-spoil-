@@ -849,9 +849,9 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 
 ## チャレンジ 6
 
-- The function is just requiring two string. But it challenges you to use the `cast send` command to interact with the contract.
-- Your favorite ice cream🍦
-- And your Twitter handle.
+- この関数は二つの文字列を要求しています。しかし、`cast send`コマンドを使用して契約とやり取りすることを挑戦しています。
+- お気に入りのアイスクリーム 🍦
+- そして、あなたの Twitter ハンドル。
 
 ### コントラクト
 
@@ -868,31 +868,31 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 
 ### 解決策
 
-- How to solve it:
+- 解決方法:
 
-1. Search about the `cast` and `send` command of Foundry, in the [forge book](https://book.getfoundry.sh/reference/cli/cast/send?highlight=cast%20send#cast-send)
+1. Foundry の`cast`および`send`コマンドについて[forge book](https://book.getfoundry.sh/reference/cli/cast/send?highlight=cast%20send#cast-send)で調べる
 
-2. Use the below command.
-3. Or input directly on Etherscan.
+2. 下記のコマンドを使用する。
+3. または、Etherscan で直接入力する。
 
-- Parameters:
-- `yourFavoriteIceCream` = `anything`
+- パラメータ:
+- `yourFavoriteIceCream` = `何でも`
 - `Twitter handle` = `@xxxxxxx`
 
-command:
+コマンド:
 
-- BE SURE THAT YOU DIDN'T ADDED "0X" AT THE FRONT OF YOUR PRIVATE KEY IN YOUR ENV FILE.
-- Requires the raw key, as it is when shown in Metamask or other wallet.
-- sometimes format varies depending on cast function... don't ask me why 😛
+- 環境変数ファイル内のプライベートキーの前に"0X"を追加していないことを確認してください。
+- Metamask や他のウォレットに表示されるときと同じ形式の生のキーが必要です。
+- なぜかは分からないが、時々 cast 関数によって形式が異なります 😛
 
-- Replace `Vanilla` and `Twitter` by your favorite ice cream and your Twitter handle.
-- Replace `$PRIVATE_KEY_TESTNET` by your private key and `$alchemy_RPC_sepolia` by your rpc url.
+- `Vanilla`と`Twitter`をあなたのお気に入りのアイスクリームと Twitter ハンドルに置き換えてください。
+- `$PRIVATE_KEY_TESTNET`をあなたのプライベートキーに、`$alchemy_RPC_sepolia`をあなたの rpc url に置き換えてください。
 
 ```
 cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,string)" Vanilla Twitter --private-key $PRIVATE_KEY_TESTNET --rpc-url $alchemy_RPC_sepolia
 ```
 
-4. Check your transaction on the blockchain explorer.
+4. ブロックチェーンエクスプローラであなたのトランザクションをチェックしてください。
 
 <br/>
 <p align="center">
