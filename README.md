@@ -451,7 +451,7 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 
 <br/>
 <p align="center">
-<img src="./challenge_5/NFT_challenge_6.avif" width="200" alt="Foundry Challenges">
+<img src="./challenge_6/NFT_challenge_6.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
 
@@ -909,6 +909,6 @@ cast send 0x6c4791c3a9E9Bc5449045872Bd1b602d6385E3E1 "solveChallenge(string,stri
 
 <br/>
 <p align="center">
-<img src="./challenge_5/NFT_challenge_6.avif" width="200" alt="Foundry Challenges">
+<img src="./challenge_6/NFT_challenge_6.avif" width="200" alt="Foundry Challenges">
 </p>
 <br/>
